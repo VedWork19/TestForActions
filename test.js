@@ -5,21 +5,21 @@ var transport = nodemailer.createTransport({
     port: 465,
     secure: true,
     auth: {
-    user: "vedant19khandokar2000@gmail.com",
-    pass: "PROEVOLUTION"
+    user: "SENDER EMAIL",
+    pass: "PASSWORD"
     }
 });
 
 var mailOptions = {
-    from: '"Vedant" <vedant19khandokar2000@gmail.com>',
-    to: 'vedant19khandokar2000@gmail.com',
+    from: '"SENDER NAME" <SENDER EMAIL>',
+    to: 'SENDER EMAIL',
     subject: 'Test Email',
     html: 'Test email sent successfully. SMTP',
     dsn: {
         id: 'some random message specific id',
         return: 'headers',
         notify: ['failure', 'delay'],
-        recipient: 'vedant19khandokar@gmail.com'
+        recipient: 'SENDER EMAIL'
     },
 };
 
