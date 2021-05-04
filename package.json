@@ -1,0 +1,19 @@
+{
+  "name": "testforactions",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VedWork19/TestForActions.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VedWork19/TestForActions/issues"
+  },
+  "homepage": "https://github.com/VedWork19/TestForActions#readme"
+}
